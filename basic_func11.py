@@ -1,10 +1,5 @@
+a=int(input("Musbat son kiriting: "))
 def main(a):
-    '''find the absolute value of a and return it
-    
-    Args:
-        a (int): a number
-        
-    Returns:
-        int: the absolute value.
-    '''
-    return
+    n = abs(a)
+    return n
+print(main(a))

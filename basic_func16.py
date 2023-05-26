@@ -1,11 +1,8 @@
+a= int(input("son kiriting "))
+b= int(input("yana son kiriting "))
+
 def main(a, b):
-    '''find the sum of a and b and return it.
-    
-    Args:
-        a (int): a number
-        b (int): a number
-        
-    Returns:
-        int: the sum.
-    '''
-    return
+    num = a+b
+
+    return num
+print(main(a,b))

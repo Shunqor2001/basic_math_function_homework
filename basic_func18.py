@@ -1,10 +1,7 @@
-def main(a):
-    '''Assign the value pi to the parametr "a". Round the result to 2 decimal places and return it.
+import math
+
+def main():
+    a = round(math.pi,2)
+    return a
     
-    Args:
-        a (float): a number
-        
-    Returns:
-        float: the result.
-    '''
-    return
+print(main())

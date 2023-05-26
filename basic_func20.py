@@ -1,4 +1,5 @@
 def main(a, b):
+    n=a*b
     '''find the multiplication of a and b and return it.
     
     Args:
@@ -8,4 +9,5 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    return n 
+print(main(2,3))
